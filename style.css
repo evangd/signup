@@ -8,20 +8,29 @@ body {
     display: flex;
     height: 100vh;
     width: 100%;
+    background-color: black;
 }
 
 #bg-container {
     flex-grow: 2;
-    background: url('bg.jpg');
+    background: url('bg1.jpg');
     background-size: cover;
     background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 0.8rem;
+    transition: opacity 0.5s;
+}
+
+#bg-container a {
+    color: white;
 }
 
 #form-container {
     flex-grow: 0;
-    
-    /* display: flex;
-    flex-direction: column; */
+    background-color: white;
 }
 
 .padding-wrapper {
